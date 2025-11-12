@@ -1,0 +1,5 @@
+Code for going up one folder in the directory
+'../data_clean/insert_file_name.ext'
+
+Code length
+Jai's preliminary code = 85 lines
