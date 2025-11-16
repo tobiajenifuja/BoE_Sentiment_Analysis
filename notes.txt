@@ -3,3 +3,7 @@ Code for going up one folder in the directory
 
 Code length
 Jai's preliminary code = 85 lines
+
+Jai's VADER and LM code = 26 lines
+	Had to edit ln10 due to raw string error with Python interpretation '[^\w\s]' error r'[^\w\s]'
+
