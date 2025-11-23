@@ -1,0 +1,57 @@
+Raw Notebooks - structure: Notebook title [Owner]:
+[x] 1. Full - FinBERT Sentiment Analysis - BoE Speeches.ipynb [DM] 
+	data input: uk_speeches.csv, LM_dictionary.csv
+	data output: Full_FinBERT_speeches.csv, Monthly_Sentiment_Score.csv
+[x] 2. LDA - Master Notebook.ipynb [DM]
+	data input: "FSR_Covid": "FSR - Covid", "FSR_GFC": "FSR - GFC", "IR_MPR_Covid": "IR - MPR - Covid", "IR_GFC": "IR - GFC", "MPC_Meeting_Covid": "MPC Meeting - Covid", "MPC_Meeting_GFC": "MPC Meeting - GFC"
+	data output: (name)_LDA_Topics_Visualisation.html (various files), (name)_LDA_topics.csv (various files), (name)_LDA_salient_terms.csv (various files)
+[x] 3. Preliminary analysis (Sentiment vs Key variables).ipynb [JT]
+	data input: variables.csv 
+	data output: variables_clean.csv
+[x] 4. 5x - (UK, Euro, Japan, Canada, USA) Vader Sentiment Analysis with LM Dictionary.ipynb [JT]
+	data input: country_speeches.csv (for all countries), LM_dictionary.csv
+	data output: country_sentiment_labeled.csv (for all countries), country_sentiment_labeled.xlsx
+[x] 5. FULL Regression Analysis (Sentiment vs Key variables)v2.ipynb [JT]
+	data input: variables_transformed.csv
+	data output:
+[x] 6. mpc_voting.ipynb [CL]
+	data input: mpcvoting.xlsx
+	data output: mpcvoting_clean.csv
+[x] 7. BoE_FinancialStability_SentimentAnalysis_v.2.ipynb [FG]
+	data input: all FSR reports as pdf files
+	data output:
+[x] 8. BoE_IR-MPR_Sentiment_Analysis_LM_VADER_v1.ipynb [FG]
+	data input: all IR and MPR reports as pdf files
+	data output:
+
+
+Notebooks ready for merge:
+"Full - FinBERT Sentiment Analysis - BoE Speeches.ipynb"
+"LDA - Master Notebook.ipynb"
+"Preliminary analysis (Sentiment vs Key variables).ipynb" (this has already been optimised in "insightnexus_final_notebook.ipynb" master notebook - may not be needed)
+"merged_all_vader_sentiment_analysis_with_lm_dictionary.ipynb" (contains all speeches vader analysis data per country, 5 notebooks condensed into 1)
+"FULL Regression Analysis (Sentiment vs Key variables)v2.ipynb"
+"mpc_voting.ipynb"
+"BoE_FinancialStability_SentimentAnalysis_v.2.ipynb"
+"BoE_IR-MPR_Sentiment_Analysis_LM_VADER_v1.ipynb"
+
+
+
+Already Merged Notebooks:
+4. merged_all_vader_sentiment_analysis_with_lm_dictionary.ipynb
+insightnexus_final_notebook.ipynb (contains prelim and VADER LM analysis for BoE)
+
+
+Suggested structure:
+"insightnexus_final_notebook.ipynb",
+"merged_all_vader_sentiment_analysis_with_lm_dictionary.ipynb",
+"Full - FinBERT Sentiment Analysis - BoE Speeches.ipynb",
+"FULL Regression Analysis (Sentiment vs Key variables)v2.ipynb",
+"BoE_FinancialStability_SentimentAnalysis_v.2.ipynb",
+"BoE_IR-MPR_Sentiment_Analysis_LM_VADER_v1.ipynb",
+"mpc_voting.ipynb",
+"LDA - Master Notebook.ipynb"
+
+
+
+
