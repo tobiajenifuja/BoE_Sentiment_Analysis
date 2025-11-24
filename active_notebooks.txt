@@ -1,3 +1,20 @@
+To Do:
+- Update variables names for section 1
+- Review section 4 and 5 conclusions, change from AI slop to real insights
+- 
+
+Sections to mark down:
+[x] 1. VADER sentiment analysis with LM Dictionary
+[DM} 2. FinBERT Sentiment Analysis - BoE Speeches
+[SB] 3. Complete Regression Analysis (Sentiment vs Key Variables)
+[x] 4. Financial Stability Report Sentiment Analysis
+[x] 5. Inflation and Monetary Policy Report Sentiment Analysis using LM and VADER
+[x] 6. MPC Voting Analysis
+[DM] 7. Latent Dirichlet Allocation (LDA) Topic Modelling for communications during GFC and COVID
+
+
+
+
 Raw Notebooks - structure: Notebook title [Owner]:
 [x] 1. Full - FinBERT Sentiment Analysis - BoE Speeches.ipynb [DM] 
 	data input: uk_speeches.csv, LM_dictionary.csv
@@ -51,6 +68,7 @@ Suggested structure:
 "BoE_IR-MPR_Sentiment_Analysis_LM_VADER_v1.ipynb",
 "mpc_voting.ipynb",
 "LDA - Master Notebook.ipynb"
+
 
 
 
